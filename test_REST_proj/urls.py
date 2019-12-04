@@ -20,7 +20,6 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-# from django.contrib.auth.models import User, Group
 from restapi_app.api import viewsets  
 from rest_framework import routers  
 from restapi_app.views import resthome

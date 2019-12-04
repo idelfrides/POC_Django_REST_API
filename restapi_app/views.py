@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.models import User, Group
 import json, os
 
-
 """
  --------------------------------------------
    views methods begin from here 
