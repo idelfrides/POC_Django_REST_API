@@ -11,6 +11,9 @@ import json, os
 def resthome(request):
     data = {}
     data['wm'] = 'IDELFRIDES JORGE | War Machine Never Give Up'
-    data['desc'] = 'This is a Prove of concept to Django REST API'
+    data['desc'] = 'This is project make a proof of concept to django REST framework.'
     data['title'] = 'Home | Django REST API '
     return render(request, 'resthome.html', data)
+
+def test(request):
+    pass
