@@ -1,8 +1,10 @@
 from rest_framework import viewsets
 from django.contrib.auth.models import User, Group
-# from . serializers import UserSerializer, GroupSerializer
 from . serializers_link2group import UserSerializer
 from . serializers_link2group import GroupSerializer
+
+# from . serializers import UserSerializer, 
+# from . serializers import GroupSerializer
  
 
 class UserViewSet(viewsets.ModelViewSet):
