@@ -14,6 +14,3 @@ def resthome(request):
     data['desc'] = 'This is project make a proof of concept to django REST framework.'
     data['title'] = 'Home | Django REST API '
     return render(request, 'resthome.html', data)
-
-def test(request):
-    pass
