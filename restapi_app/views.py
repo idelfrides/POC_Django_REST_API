@@ -10,9 +10,9 @@ import json, os
 
 def resthome(request):
     data = {}
-    data['wm'] = 'IDELFRIDES JORGE'
-    data['desc'] = 'This is project make a proof of concept to django REST framework.'
     data['title'] = 'Home | Django REST API '
+    data['wm'] = 'IDELFRIDES JORGE'
+    data['desc'] = 'This project make a POC of Django REST framework.'
     data['verb'] = 'POST'
     return render(request, 'resthome.html', data)
 
