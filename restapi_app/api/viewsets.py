@@ -5,7 +5,7 @@ from . serializers_link2group import GroupSerializer
 
 # from . serializers import UserSerializer, 
 # from . serializers import GroupSerializer
- 
+
 
 class UserViewSet(viewsets.ModelViewSet):
     """
@@ -16,12 +16,13 @@ class UserViewSet(viewsets.ModelViewSet):
     serializer_class = UserSerializer
     
 
-
 class GroupViewSet(viewsets.ModelViewSet):
     """
         API endpoint that allows groups  
         to be viewed or edited.
     """
     queryset = Group.objects.all()
-    serializer_class = GroupSerializer 
+    serializer_class = GroupSerializer
+    
+
 

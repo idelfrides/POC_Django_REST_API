@@ -13,7 +13,7 @@ def resthome(request):
     data['title'] = 'Home | Django REST API '
     data['wm'] = 'IDELFRIDES JORGE'
     data['desc'] = 'This project make a POC of Django REST framework.'
-    data['verb'] = 'POST'
+    data['verb'] = 'DELETE'
     return render(request, 'resthome.html', data)
 
 
